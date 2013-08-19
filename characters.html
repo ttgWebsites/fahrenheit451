@@ -1,0 +1,83 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="characters">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html" class="ui-btn-active ui-state-persist">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Characters</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more characters needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Guy Montag</li>
+					<li data-theme="d">The protagonist of the novel and a man of about 30 years old</li>
+					<li data-theme="c">Fireman, yet not in the typical sense of the word, he burns books as all books are banned in his society</li>
+					<li data-theme="d">After 10 years and coming to a realization of what his work entails decides he does not like being a fireman any longer and decides to discontinue his work</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Mildred Montag</li>
+					<li data-theme="d">Mildred is Guy's wife. She is lazy, spending nearly all her time watching tv</li>
+					<li data-theme="c">She appears very sickly and weak due to her lack of outside stimulus</li>
+					<li data-theme="d">Mildred is very boring and unappealing, she refuses to even hold conversations with her husband</li>
+					<li data-theme="c">She attempts suicide but fails, she seems to be harboring deep pain</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Clarisse McCellan</li>
+					<li data-theme="d">A young girl of about sixteen, she lives near the Montag's</li>
+					<li data-theme="c">Clarisse is a very odd girl during the time period of the novel as she enjoys such things as the outdoors and also often asks questions</li>
+					<li data-theme="d">Her and her family are outcasts to the rest of society</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Professor Faber</li>
+					<li data-theme="d">Faber is a former English teacher who still holds a passion for literature even though books have been outlawed</li>
+					<li data-theme="c">He and Guy know have known each other since before the novel even starts</li>
+					<li data-theme="d">Faber is frustrated with himself as he believes he is a coward for not standing up for books before they became banned</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Captain Beatty</li>
+					<li data-theme="d">Captain Beatty leads Guy's firehouse</li>
+					<li data-theme="c">Though he seems well educated he holds a deep hatred for books which explains why he might be a firefighter</li>
+					<li data-theme="d">He keeps a very close eye on Montag, even appearing to know what Montag is thinking</li>
+				</ul>
+				
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">Granger</li>
+					<li data-theme="d">He is the leader of a band of rebels who still read and want to keep books alive during this time</li>
+					<li data-theme="c">Granger is also very intelligent</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Fahrenheit 451</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>

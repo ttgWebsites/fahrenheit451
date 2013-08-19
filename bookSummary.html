@@ -1,0 +1,51 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="bookSummary">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html" class="ui-btn-active ui-state-persist">Book Summary</a></li>
+				<li><a href="themes.html">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Book Summary</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">So basically...</li>
+					<!--Place the book summary text below-->
+					<li data-theme="d">Fahrenheit 451 tells the story of Guy Montag who lives during a futuristic dystopian society. 
+					In the novel Montag serves as a fireman that instead of puts out fires, starts homes that have books inside ablaze.
+					Montag meets a young girl named Clarisse that talks to him and helps change his prospective on life. Montag begins to 
+					take an interest in books, however the other firemen soon discover him. Montag eventually is caught and forced to burn 
+					his own home down, he escapes to try and start a new life with other men who are also interested in books. The city that
+					Montag lived in is eventually destroyed by war and Montag and other men set out to reestablish a society, except this time 
+					a better one where literature is commonplace.</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Fahrenheit 451</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
